@@ -1,3 +1,5 @@
+
+# include < stdio .h >
 int vi , vf , i ;
 for ( i= vi ; i <= vf ; i ++ ){
 /* Cuerpo del bucle */
