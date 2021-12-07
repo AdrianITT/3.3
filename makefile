@@ -4,7 +4,7 @@ eje: eje.c
 eje.o: eje.s
 	as -g -o eje.o eje.s
 
-clean eje:
+cleaneje:
 	rm eje eje.o
 
 eje2: eje2.c
@@ -13,7 +13,7 @@ eje2: eje2.c
 eje2.o: eje2.s
 	as -g -o eje2.o eje2.s
 
-clean eje2:
+cleaneje2:
 	rm eje2 eje2.o
 
 eje3: eje3.c
@@ -22,7 +22,7 @@ eje3: eje3.c
 eje3.o: eje3.s
 	as -g -o eje3.o eje3.s
 
-clean eje3:
+cleaneje3:
 	rm eje3 eje3.o
 
 eje4: eje4.c
@@ -31,5 +31,5 @@ eje4: eje4.c
 eje4.o: eje4.s
 	as -g -o eje4.o eje4.s
 
-clean eje4:
+cleaneje4:
 	rm eje4 eje4.o
